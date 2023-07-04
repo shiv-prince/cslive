@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "701310629515",
+    "project_id": "cslive-8119a",
+    "storage_bucket": "cslive-8119a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:701310629515:android:068a1bd48611c6ff70068e",
+        "android_client_info": {
+          "package_name": "com.example.cslive"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "701310629515-16oae2j28va7j3c9o7bbpra582iiomqq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.cslive",
+            "certificate_hash": "b3bd707f5b509c8f10bba4e9a0db3530f506b3a7"
+          }
+        },
+        {
+          "client_id": "701310629515-jq2cga7ps1m8l23lqkk2fg23k7fiqn32.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBng_w85xMabHU2D86UazvcjOmPpnQzpHQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "701310629515-jq2cga7ps1m8l23lqkk2fg23k7fiqn32.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

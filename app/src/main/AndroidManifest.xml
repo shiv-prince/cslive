@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Cslive"
+        tools:targetApi="31">
+        <activity
+            android:name=".Fivesix"
+            android:exported="false" />
+        <activity
+            android:name=".Fivefive"
+            android:exported="false" />
+        <activity
+            android:name=".Fivefour"
+            android:exported="false" />
+        <activity
+            android:name=".Fivethree"
+            android:exported="false" />
+        <activity
+            android:name=".Fivetwo"
+            android:exported="false" />
+        <activity
+            android:name=".Fiveone"
+            android:exported="false" />
+        <activity
+            android:name=".Foursix"
+            android:exported="false" />
+        <activity
+            android:name=".Fourfive"
+            android:exported="false" />
+        <activity
+            android:name=".Fourfour"
+            android:exported="false" />
+        <activity
+            android:name=".Fourthree"
+            android:exported="false" />
+        <activity
+            android:name=".Fourtwo"
+            android:exported="false" />
+        <activity
+            android:name=".Mfour"
+            android:exported="false" />
+        <activity
+            android:name=".Threesix"
+            android:exported="false" />
+        <activity
+            android:name=".Threefive"
+            android:exported="false" />
+        <activity
+            android:name=".Threefour"
+            android:exported="false" />
+        <activity
+            android:name=".Threethree"
+            android:exported="false" />
+        <activity
+            android:name=".Threetwo"
+            android:exported="false" />
+        <activity
+            android:name=".Mthree"
+            android:exported="false" />
+        <activity
+            android:name=".Homepagefive"
+            android:exported="false" />
+        <activity
+            android:name=".Homepagefour"
+            android:exported="false" />
+        <activity
+            android:name=".Homepagethree"
+            android:exported="false" />
+        <activity
+            android:name=".supermainpage"
+            android:exported="false" />
+        <activity
+            android:name=".splash"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Homepagesix"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".sixthree"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".sixtwo"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".sixone"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".sixfourone"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".sixfourthree"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+    </application>
+
+</manifest>

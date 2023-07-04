@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".Homepagefour">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_marginTop="50dp"
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_height="wrap_content"
+            android:text="  4th  "
+            android:textSize="40sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:id="@+id/Name"
+            android:layout_marginTop="50dp"
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_height="wrap_content"
+            android:text="Semester"
+            android:textSize="40sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:text="logout"
+            android:id="@+id/logout4"
+            android:textColor="@color/white"
+            android:background="@drawable/btnbg"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <ScrollView
+
+        android:layout_width="match_parent"
+        android:layout_height="600dp"
+        android:layout_marginTop="20dp"
+        android:padding="5dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="5dp"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <Button
+                android:id="@+id/button1four"
+                android:background="@drawable/uibg"
+                android:backgroundTint="#00796B"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:layout_marginTop="5dp"
+                android:elevation="10dp"
+                android:padding="20dp"
+                android:textAlignment="center"
+                android:shadowRadius="5"
+                android:text="COMPLEX ANALYSIS, PROBABILITY AND STATISTICAL METHODS(18CS41)"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:textSize="15sp"
+                />
+            <Button
+                android:id="@+id/button2four"
+                android:background="@drawable/uibg"
+                android:backgroundTint="#00796B"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:layout_marginTop="5dp"
+                android:elevation="10dp"
+                android:padding="20dp"
+                android:textAlignment="center"
+                android:shadowRadius="5"
+                android:text="DESIGN AND ANALYSIS OF ALGORITHMS (18CS42)"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:textSize="15sp"
+                />
+
+            <Button
+                android:id="@+id/button3four"
+                android:background="@drawable/uibg"
+                android:backgroundTint="#00796B"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:elevation="10dp"
+                android:padding="5dp"
+                android:shadowRadius="5"
+                android:text="OPERATING SYSTEMS (18CS43)"
+                android:textColor="@color/white"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                />
+
+            <Button
+                android:id="@+id/button4four"
+                android:background="@drawable/uibg"
+                android:backgroundTint="#00796B"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:elevation="10dp"
+                android:padding="5dp"
+                android:shadowDy="2"
+                android:shadowRadius="5"
+                android:text="MICROCONTROLLER AND EMBEDDED SYSTEMS (18CS44)"
+                android:textColor="@color/white"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                />
+
+            <Button
+                android:id="@+id/button5four"
+                android:background="@drawable/uibg"
+                android:backgroundTint="#00796B"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:elevation="10dp"
+                android:padding="5dp"
+                android:shadowRadius="5"
+                android:text="OBJECT ORIENTED CONCEPTS(18CS45)"
+                android:textColor="@color/white"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                />
+
+
+
+            <Button
+                android:id="@+id/button6four"
+                android:background="@drawable/uibg"
+                android:backgroundTint="#00796B"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:elevation="10dp"
+                android:padding="5dp"
+                android:layout_margin="10dp"
+                android:shadowRadius="5"
+                android:text="DATA COMMUNICATION (18CS46)"
+                android:textColor="@color/white"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
